@@ -1,0 +1,1151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--#include virtual="/frame/title.shtml"-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/velocity.min.js"></script>
+    <script type="text/javascript" src="js/countUp.js"></script>
+    <script type="text/javascript" src="js/rotate.js"></script>
+</head>
+<body style="overflow-x:auto;">
+<!--#include virtual="/frame/menu.shtml"-->
+<div class="f-maincontent" id="imp-index">
+    <div class="f-row">
+        <div class="f-in-col">
+            <div class="content f-main clr" >
+            <!--1-->
+                    <div class="f-row">
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box" >
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="monitor-icon"></span>设备监控</h1>
+                                    </div>
+                                    <div class="f-box-body" id="score-mod">
+                                        <div>
+                                            <div class="scan_wrapper">
+                                                <div class="scan_browse"></div>
+                                                <div class="scan_load"></div>
+                                                <div class="scan_arrows"></div>
+                                            </div>
+                                            <div class="score">
+                                                <div class="score-label">系统状况评分:</div>
+                                                <div id="score"></div>
+                                                <div class="score-em">分</div>
+                                                <div class="clr"></div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="battery">
+                                                <div class="monitor-mod">
+                                                    <div class="f-col icon system"></div>
+                                                    <div class="f-col-fit">
+                                                        <div>主机系统</div>
+                                                        <div>200个</div>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">宕机</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">告警</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">正常</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                </div>
+                                                <div class="monitor-mod">
+                                                    <div class="f-col icon net"></div>
+                                                    <div class="f-col-fit">
+                                                        <div>网络设备</div>
+                                                        <div>200个</div>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">宕机</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">告警</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">正常</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                </div>
+                                                <div class="monitor-mod">
+                                                    <div class="f-col icon hardware"></div>
+                                                    <div class="f-col-fit">
+                                                        <div>主机硬件</div>
+                                                        <div>200个</div>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">宕机</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">告警</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">正常</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                </div>
+                                                <div class="monitor-mod">
+                                                    <div class="f-col icon app"></div>
+                                                    <div class="f-col-fit">
+                                                        <div>应用</div>
+                                                        <div>200个</div>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">宕机</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">告警</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                    <div class="battery-item">
+                                                        <span class="battery-title">正常</span>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                        <li><span></span></li>
+                                                    </div>
+                                                </div>
+                                                <div class="clr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box" >
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="focus-icon"></span>已关注资源</h1>
+                                    </div>
+                                    <div class="f-box-body">
+                                        <div id="slider">
+                                            <div class="prev"><a id="left-arrow"></a></div>
+                                            <div class="next"><a id="right-arrow"></a></div>
+                                            <div class="slider-item">
+                                                <ul>
+                                                    <li>
+                                                        <div class="f-row">
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>111</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCHWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>SG565</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="f-row">
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>222</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCHWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>SG565</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="f-row">
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>333</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCHWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-h"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-h-span">[宕机] </span>SG565</div>
+                                                                            <div class="res-ip">192.168.1.1</div>
+                                                                            <div class="res-type">防火墙</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-n"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-m-span">[正常] </span>IMP-C2960-1</div>
+                                                                            <div class="res-ip">172.172.88.115</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="f-col-4">
+                                                                <div class="f-in-col">
+                                                                    <div class="res">
+                                                                        <div class="res-statu-m"></div>
+                                                                        <div class="menu"></div>
+                                                                        <div class="res-content">
+                                                                            <div class="res-title"><span class="res-statu-n-span">[告警] </span>sx-CORE_SWITCH</div>
+                                                                            <div class="res-ip">172.18.0.254</div>
+                                                                            <div class="res-type">交换机</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <!--2-->
+                    <div class="f-row">
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box">
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="evtTotal-icon"></span>事件概览</h1>
+                                        <div class="more-icon"></div>
+                                    </div>
+                                    <div class="f-box-body" id="evt-view">
+                                        <ul id="evt-situation">
+                                            <li>事件总数<span class="evt-word-total">882</span></li>
+                                            <li>严重<span class="evt-word-serious">123</span></li>
+                                            <li>主要<span class="evt-word-main">123</span></li>
+                                            <li>次要<span class="evt-word-minor">123</span></li>
+                                            <li>警告<span class="evt-word-warn">12</span></li>
+                                            <li>提示<span class="evt-word-hint">12</span></li>
+                                            <li>正常<span class="evt-word-normal">12</span></li>
+                                            <li>未知<span class="evt-word-unknown">12</span></li>
+                                        </ul>
+                                        <div>
+                                        <ul id="evt-stream">
+                                            <li></li>
+                                            <li>
+                                                <div class="evt-common evt-serious"></div>
+                                                <div class="stream-left-div">
+                                                    <span class="evt-name evt-bolder">WIN-ID3H [172.172.28.176]</span>
+                                                    <span class="break-word"><a title="aa">admin-ls-PC192.168.212.105的memory(Physical Memory)异常，{规则：物理内存使用率>=75}.</a></span>
+                                                </div>
+                                                <div class="stream-right-div">
+                                                    <span class="evt-time evt-bolder">12/9 13:13:23</span>
+                                                    <span class="break-word">持续时长：1天21时20分10秒</span>
+                                                </div>
+                                            </li>
+                                            <li class="even">
+                                                <div class="evt-common evt-normal"></div>
+                                                <div class="stream-left-div">
+                                                    <span class="evt-name evt-bolder">WIN-ID3H [172.172.28.176]</span>
+                                                    <span class="break-word"><a class="more-a">admin-ls-PC192.168.212.105的memory(Physical Memory)异常，{规则：物理内存使用率>=75}.</a></span>
+                                                </div>
+                                                <div class="stream-right-div">
+                                                    <span class="evt-time evt-bolder">12/9 13:13:23</span>
+                                                    <span class="break-word">持续时长：1天21时20分10秒</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="evt-common evt-hint"></div>
+                                                <div class="stream-left-div">
+                                                    <span class="evt-name evt-bolder">WIN-ID3H [172.172.28.176]</span>
+                                                    <span class="break-word"><a>admin-ls-PC192.168.212.105的memory(Physical Memory)异常，{规则：物理内存使用率>=75}.</a></span>
+                                                </div>
+                                                <div class="stream-right-div">
+                                                    <span class="evt-time evt-bolder">12/9 13:13:23</span>
+                                                    <span class="break-word">持续时长：1天21时20分10秒</span>
+                                                </div>
+                                            </li>
+                                            <li class="even">
+                                                <div class="evt-common evt-warn"></div>
+                                                <div class="stream-left-div">
+                                                    <span class="evt-name evt-bolder">WIN-ID3H [172.172.28.176]</span>
+                                                    <span class="break-word"><a>admin-ls-PC192.168.212.105的memory(Physical Memory)异常，{规则：物理内存使用率>=75}.</a></span>
+                                                </div>
+                                                <div class="stream-right-div">
+                                                    <span class="evt-time evt-bolder">12/9 13:13:23</span>
+                                                    <span class="break-word">持续时长：1天21时20分10秒</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="evt-common evt-main"></div>
+                                                <div class="stream-left-div">
+                                                    <span class="evt-name evt-bolder">WIN-ID3H [172.172.28.176]</span>
+                                                    <span class="break-word"><a>admin-ls-PC192.168.212.105的memory(Physical Memory)异常，{规则：物理内存使用率>=75}.</a></span>
+                                                </div>
+                                                <div class="stream-right-div">
+                                                    <span class="evt-time evt-bolder">12/9 13:13:23</span>
+                                                    <span class="break-word">持续时长：1天21时20分10秒</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box">
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="recover-icon"></span>恢复事件</h1>
+                                        <div class="more-icon"></div>
+                                    </div>
+                                    <div class="f-box-body">
+                                        <div id="event-recover-wrap" style="position: relative">
+                                            <div id="event-recover-left"></div>
+                                            <div id="event-recover-center"></div>
+                                            <div id="event-recover-right"></div>
+                                            <div class="evtGraph">
+                                                <div class="ball severity-ball ball1">
+                                                    <dl>
+                                                        <dt class="severity">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball major-ball ball2">
+                                                    <dl>
+                                                        <dt class="major">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball minor-ball ball3">
+                                                    <dl>
+                                                        <dt class="minor">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball warn-ball ball4">
+                                                    <dl>
+                                                        <dt class="warn">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball hint-ball ball5">
+                                                    <dl>
+                                                        <dt class="hint">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball normal-ball ball6">
+                                                    <dl>
+                                                        <dt class="normal">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball unknow-ball ball7">
+                                                    <dl>
+                                                        <dt class="unknow">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball normal-ball ball8">
+                                                    <dl>
+                                                        <dt class="normal">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="ball nodata-ball ball0">
+                                                    <dl style="display: none">
+                                                        <dt class="hint">12/9 17:42:20</dt>
+                                                        <dd class="name">XXX-PC</dd>
+                                                        <dd>IP:192.168.212.201</dd>
+                                                        <dd>监控项:cpu1</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="path">
+                                                </div>
+                                            </div>
+
+                                                <div class="interleaf interleaf-left"></div>
+                                                <div class="interleaf interleaf-right"></div>
+                                            <div id="current-info">
+                                                <dl>
+                                                    <dt><div class="word-icon major-ball"></div><span id="current-name">ABC-PC</span><span class="evtRank major">[主要]</span></dt>
+                                                    <dd>发生时间:<span id="current-time" class="name">12/09 17:42:20</span></dd>
+                                                    <dd>IP:<span id="current-ip" class="name">192.168.212.201</span></dd>
+                                                    <dd>监控项:<span id="current-monitor" class="name">cpu1</span></dd>
+                                                    <dd>持续时长:<span id="current-duration" class="name">1天21时20分10秒</span></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <!--3-->
+                    <div class="f-row">
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box" >
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="cpuuse-icon"></span>CPU使用率排行</h1>
+                                        <div class="set-icon"></div>
+                                    </div>
+                                    <div class="f-box-body">
+                                        <div class="f-box-in-body">
+                                            <dl id="cpu-use">
+                                                <dt><span id="span1"></span><span id="span2">设备名称</span><span id="span3">IP地址</span><span id="span4">CPU使用率</span></dt>
+                                                <dd>
+                                                    <ul>
+                                                        <li class="cpu-li-num border-right-none">NO.01</li>
+                                                        <li class="cpu-li-name border-right-none">wangting-pc</li>
+                                                        <li class="cpu-li-ip border-right-none">192.168.212.3</li>
+                                                        <li class="cpu-li-progress">
+                                                            <div class="progress_wrap">
+                                                                <div class="progress_con progress_con_warn" style="width: 90%;"></div>
+                                                            </div>
+                                                            <div class="progress-word progress-word-red">90%</div>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                                <dd>
+                                                    <ul>
+                                                        <li class="cpu-li-num border-right-none">NO.02</li>
+                                                        <li class="cpu-li-name border-right-none">wangting-pc</li>
+                                                        <li class="cpu-li-ip border-right-none">192.168.212.3</li>
+                                                        <li class="cpu-li-progress">
+                                                            <div class="progress_wrap">
+                                                                <div class="progress_con" style="width: 46%;"></div>
+                                                            </div>
+                                                            <div class="progress-word progress-word-black">46%</div>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                                <dd>
+                                                    <ul>
+                                                        <li class="cpu-li-num border-right-none">NO.03</li>
+                                                        <li class="cpu-li-name border-right-none">wangting-pc</li>
+                                                        <li class="cpu-li-ip border-right-none">192.168.212.3</li>
+                                                        <li class="cpu-li-progress">
+                                                            <div class="progress_wrap">
+                                                                <div class="progress_con progress_con_warn" style="width: 90%;"></div>
+                                                            </div>
+                                                            <div class="progress-word progress-word-red">90%</div>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                                <dd>
+                                                    <ul>
+                                                        <li class="cpu-li-num border-right-none">NO.04</li>
+                                                        <li class="cpu-li-name border-right-none">wangting-pc</li>
+                                                        <li class="cpu-li-ip border-right-none">192.168.212.3</li>
+                                                        <li class="cpu-li-progress">
+                                                            <div class="progress_wrap">
+                                                                <div class="progress_con progress_con_warn" style="width: 90%;"></div>
+                                                            </div>
+                                                            <div class="progress-word progress-word-red">90%</div>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                                <dd>
+                                                    <ul>
+                                                        <li class="cpu-li-num border-right-none">NO.05</li>
+                                                        <li class="cpu-li-name border-right-none">wangting-pc</li>
+                                                        <li class="cpu-li-ip border-right-none">192.168.212.3</li>
+                                                        <li class="cpu-li-progress">
+                                                            <div class="progress_wrap">
+                                                                <div class="progress_con" style="width: 46%;"></div>
+                                                            </div>
+                                                            <div class="progress-word progress-word-black">46%</div>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box">
+                                <div class="f-box-header">
+                                    <h1 class="f-box-h1"><span id="memoryuse-icon"></span>内存使用率排行</h1>
+                                    <div class="set-icon"></div>
+                                </div>
+                                <div class="f-box-body">
+                                    <div class="f-box-in-body">
+                                        <div id="memory-rank">
+                                            <div id="memory-rank-center">
+                                                <div id="memory-rank-left"></div>
+                                                <div id="memory-rank-right"></div>
+                                                <div id="memory-content">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.1</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 10%">
+                                                                            <span class="memory_chart_num">90%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.2</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con" style="top: 30%">
+                                                                            <span class="memory_chart_num">70%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.3</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 20%">
+                                                                            <span class="memory_chart_num">80%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.4</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con" style="top: 60%">
+                                                                            <span class="memory_chart_num">40%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.5</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 30%">
+                                                                            <span class="memory_chart_num">70%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clr"></div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.6</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 10%">
+                                                                            <span class="memory_chart_num">90%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.7</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con" style="top: 30%">
+                                                                            <span class="memory_chart_num">70%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.8</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 20%">
+                                                                            <span class="memory_chart_num">80%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.9</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con" style="top: 60%">
+                                                                            <span class="memory_chart_num">40%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.10</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 30%">
+                                                                            <span class="memory_chart_num">70%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clr"></div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.11</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 10%">
+                                                                            <span class="memory_chart_num">90%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.12</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con" style="top: 30%">
+                                                                            <span class="memory_chart_num">70%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="memory-bar">
+                                                                <h3>NO.13</h3>
+                                                                <div class="memory_chart_wrapper">
+                                                                    <div class="memory_chart_notch">
+                                                                        <div class="memory_chart_con memory_chart_con_warn" style="top: 20%">
+                                                                            <span class="memory_chart_num">80%</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="memory-btm-word">
+                                                                    <h5>WIN-8LHVM0AMGU8</h5>
+                                                                    <span>172.172.28.32</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clr"></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="slider-indicator">
+                                                <div class="indicator active"></div>
+                                                <div class="indicator"></div>
+                                                <div class="indicator"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            <!--4-->
+                    <div class="f-row">
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box" >
+                                    <div class="f-box-header">
+                                        <h1 class="f-box-h1"><span id="port-icon"></span>接口流入量排行</h1>
+                                        <div class="more-icon"></div>
+                                        <div class="set-icon"></div>
+                                    </div>
+                                    <div class="f-box-body">
+                                        <div class="index-list">
+                                            <table  cellpadding="0" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="center" width="40%">接口名称</th>
+                                                        <th>设备名称</th>
+                                                        <th>IP地址</th>
+                                                        <th>流入量</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="odd">
+                                                        <td class="center black"><span class="gray-span">1.</span>ashdiashidh</td>
+                                                        <td class="black">liu_yfeng-PC</td>
+                                                        <td class="gray">192.168.3.1</td>
+                                                        <td class="blue"><span class="icon-flow"></span><span class="word-pad">5151.23</span><span>kpbs</span></td>
+                                                    </tr>
+                                                    <tr class="even">
+                                                        <td class="center black"><span class="gray-span">2.</span>ashdiashidh</td>
+                                                        <td class="black">Test-Pc</td>
+                                                        <td class="gray">192.168.3.1</td>
+                                                        <td class="blue"><span class="icon-flow"></span><span class="word-pad">5151.23</span><span>kpbs</span></td>
+                                                    </tr>
+                                                    <tr class="odd">
+                                                        <td class="center black"><span class="gray-span">3.</span>ashdiashidh</td>
+                                                        <td class="black">jincb</td>
+                                                        <td class="gray">192.168.3.1</td>
+                                                        <td class="blue"><span class="icon-flow"></span><span class="word-pad">5151.23</span><span>kpbs</span></td>
+                                                    </tr>
+                                                    <tr class="even">
+                                                        <td class="center black"><span class="gray-span">4.</span>ashdiashidh</td>
+                                                        <td class="black">CH1</td>
+                                                        <td class="gray">192.168.3.1</td>
+                                                        <td class="blue"><span class="icon-flow"></span><span class="word-pad">5151.23</span><span>kpbs</span></td>
+                                                    </tr>
+                                                    <tr class="odd">
+                                                        <td class="center black"><span class="gray-span">5.</span>ashdiashidh</td>
+                                                        <td class="black">CH1</td>
+                                                        <td class="gray">192.168.3.1</td>
+                                                        <td class="blue"><span class="icon-flow"></span><span class="word-pad">5151.23</span><span>kpbs</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-col-6">
+                            <div class="f-in-col">
+                                <div class="f-box">
+                                <div class="f-box-header">
+                                    <h1 class="f-box-h1"><span id="sysInfo-icon"></span>系统信息</h1>
+                                </div>
+                                <div class="f-box-body">
+                                    <div>
+                                        <div id="sysInfo-left">
+                                            <div class="wrap">
+                                                <div class="circle blue-cpu">
+                                                    <div class="pie_left"><div class="left"></div></div>
+                                                    <div class="pie_right"><div class="right"></div></div>
+                                                    <div class="mask"><span class="percent">40%</span><br><span class="word">cpu使用率</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="circle red-cpu">
+                                                    <div class="pie_left"><div class="left"></div></div>
+                                                    <div class="pie_right"><div class="right"></div></div>
+                                                    <div class="mask"><span class="percent">90%</span><br><span class="word">内存使用率</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="circle blue-cpu">
+                                                    <div class="pie_left"><div class="left"></div></div>
+                                                    <div class="pie_right"><div class="right"></div></div>
+                                                    <div class="mask"><span class="percent">60%</span><br><span class="word">硬盘使用率</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div id="sysInfo-right">
+                                            <div class="sysinfo-time systime">
+                                                <h1>2016/12/19 09:25:33</h1>
+                                                <span>系统时间</span>
+                                                <div id="systime"></div>
+                                            </div>
+                                            <div class="sysinfo-time">
+                                                <h1>01:12:25:30</h1>
+                                                <span>运行时间</span>
+                                                <div id="runtime"></div>
+                                            </div>
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                    <div id="four-sys-info">
+                                        <ul>
+                                            <li class="right-border">
+                                                <div id="ip">
+                                                    <div class="icon-info"></div>
+                                                    <div>
+                                                        <h5>192.168.3.1</h5>
+                                                        <span>IP地址</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="right-border">
+                                                <div id="version">
+                                                    <div class="icon-info"></div>
+                                                    <div>
+                                                        <h5>V3.6.0.0</h5>
+                                                        <span>版本号</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="right-border">
+                                                <div id="max-point">
+                                                    <div class="icon-info"></div>
+                                                    <div>
+                                                        <h5>400</h5>
+                                                        <span>最大点数</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div id="registration">
+                                                    <div class="icon-info"></div>
+                                                    <div>
+                                                        <h5>400</h5>
+                                                        <span>最大点数</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    seajs.use('./runInfo/impIndex',function(app){
+    });
+</script>
+</html>
